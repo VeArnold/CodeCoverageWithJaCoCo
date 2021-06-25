@@ -1,0 +1,8 @@
+workflows:
+  magic-test:
+    name: magic_test
+    scripts:
+      - name: jacoco
+        script: ./gradlew jacocoTestReport
+      test_report: reports/jacoco/test/jacocoTestReport.xml
+      
