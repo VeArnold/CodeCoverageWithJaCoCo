@@ -4,5 +4,5 @@ workflows:
     scripts:
       - name: jacoco
         script: ./gradlew jacocoTestReport
-      test_report: reports/jacoco/test/jacocoTestReport.xml
+        test_report: reports/jacoco/test/jacocoTestReport.xml
       
